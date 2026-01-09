@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioMotus — Аренда электрических инвалидных колясок с доставкой</title>
+    <meta name="description"
+        content="Сервис аренды современных электрических инвалидных колясок с доставкой по городу. Простая аренда без формальностей, доставка до двери, техподдержка 24/7.">
+    <meta name="keywords"
+        content="аренда инвалидных колясок, электрическая коляска, прокат колясок, доставка колясок, BioMotus">
+    <meta name="author" content="BioMotus">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="BioMotus — Аренда электрических инвалидных колясок">
+    <meta property="og:description"
+        content="Арендуйте современные электрические инвалидные коляски с доставкой по городу.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/logo.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-spinner"></div>
+            <!-- <span class="preloader-text">BioMotus</span> -->
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="BioMotus Logo">
+                <!-- <span>BioMotus</span> -->
+            </a>
+            <div class="nav-links">
+                <a href="#benefits" class="nav-link">Преимущества</a>
+                <a href="#how-it-works" class="nav-link">Как это работает</a>
+                <a href="#tariffs" class="nav-link">Тарифы</a>
+                <a href="#app" class="nav-link">Приложение</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="https://www.rustore.ru/catalog/app/com.biomotus.mobile" target="_blank"
+                    class="btn btn-primary btn-nav">
+                    <i class="fas fa-download"></i> Скачать
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="#benefits" class="mobile-link">Преимущества</a>
+            <a href="#how-it-works" class="mobile-link">Как это работает</a>
+            <a href="#tariffs" class="mobile-link">Тарифы</a>
+            <a href="#app" class="mobile-link">Приложение</a>
+            <a href="#faq" class="mobile-link">FAQ</a>
+            <a href="https://www.rustore.ru/catalog/app/com.biomotus.mobile" target="_blank"
+                class="btn btn-primary btn-mobile">
+                <i class="fas fa-download"></i> Скачать приложение
+            </a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container hero-container">
+            <div class="hero-content animate-on-scroll">
+                <h1>Арендуйте <span class="text-gradient">электрические коляски</span> с
+                    доставкой</h1>
+                <p class="hero-subtitle">Быстро, удобно и без лишних формальностей. Мы доставим коляску прямо к вашей
+                    двери в любое удобное время.</p>
+                <div class="hero-buttons">
+                    <a href="https://www.rustore.ru/catalog/app/com.biomotus.mobile" target="_blank"
+                        class="btn btn-primary btn-lg">
+                        <i class="fas fa-mobile-screen"></i> Скачать приложение
+                    </a>
+                    <a href="#how-it-works" class="btn btn-glass btn-lg">
+                        Как это работает <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="24">0</span><span class="stat-suffix">/7</span>
+                        <span class="stat-label">Поддержка</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-prefix">от</span><span class="stat-number" data-count="300">0</span><span
+                            class="stat-suffix">₽</span>
+                        <span class="stat-label">За 3 часа</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="100">0</span><span class="stat-suffix">%</span>
+                        <span class="stat-label">Заряд батареи</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual animate-on-scroll">
+                <div class="phone-showcase">
+                    <div class="phone-glow"></div>
+                    <div class="phone-mockup">
+                        <div class="phone-frame">
+                            <div class="phone-notch"></div>
+                            <img src="assets/screenshots/1.jpg" alt="Приложение BioMotus" class="phone-screen">
+                        </div>
+                    </div>
+                    <div class="floating-card card-1">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Коляска рядом</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-battery-full"></i>
+                        <span>100% заряд</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Заказ принят</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Прокрутите вниз</span>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="section benefits" id="benefits">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-badge">Преимущества</span>
+                <h2 class="section-title">Почему выбирают <span class="text-gradient">BioMotus</span>?</h2>
+                <p class="section-subtitle">Мы делаем аренду электроколясок максимально простой и удобной</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card animate-on-scroll" data-delay="0">
+                    <div class="benefit-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-file-signature"></i>
+                    </div>
+                    <h3>Простая аренда</h3>
+                    <p>Без лишних формальностей и бумажной волокиты. Оформите заявку за 2 минуты.</p>
+                    <div class="benefit-link">
+                        <span>Подробнее</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="benefit-card animate-on-scroll" data-delay="100">
+                    <div class="benefit-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-truck-fast"></i>
+                    </div>
+                    <h3>Доставка до двери</h3>
+                    <p>Привезем коляску в удобное для вас время и место. Никуда ехать не нужно.</p>
+                    <div class="benefit-link">
+                        <span>Подробнее</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="benefit-card animate-on-scroll" data-delay="200">
+                    <div class="benefit-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Поддержка 24/7</h3>
+                    <p>Круглосуточная помощь по любым вопросам. Мы всегда на связи.</p>
+                    <div class="benefit-link">
+                        <span>Подробнее</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="benefit-card animate-on-scroll" data-delay="300">
+                    <div class="benefit-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Гибкая оплата</h3>
+                    <p>Удобные способы оплаты и прозрачные тарифы без скрытых платежей.</p>
+                    <div class="benefit-link">
+                        <span>Подробнее</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="benefit-card animate-on-scroll" data-delay="400">
+                    <div class="benefit-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-battery-full"></i>
+                    </div>
+                    <h3>Полный заряд</h3>
+                    <p>Все коляски доставляются заряженными на 100% и проверенными.</p>
+                    <div class="benefit-link">
+                        <span>Подробнее</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="benefit-card animate-on-scroll" data-delay="500">
+                    <div class="benefit-icon">
+                        <div class="icon-bg"></div>
+                        <i class="fas fa-map-location-dot"></i>
+                    </div>
+                    <h3>Карта в приложении</h3>
+                    <p>Найдите ближайшую доступную коляску прямо на карте в приложении.</p>
+                    <div class="benefit-link">
+                        <span>Подробнее</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="section how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-badge">Процесс</span>
+                <h2 class="section-title">Как это работает</h2>
+                <p class="section-subtitle">Три простых шага до получения электроколяски</p>
+            </div>
+            <div class="steps-wrapper">
+                <div class="steps-timeline">
+                    <div class="timeline-progress" id="timeline-progress"></div>
+                </div>
+                <div class="steps-container">
+                    <div class="step-card animate-on-scroll" data-step="1">
+                        <div class="step-number">01</div>
+                        <div class="step-content">
+                            <div class="step-icon">
+                                <i class="fas fa-map-location-dot"></i>
+                            </div>
+                            <h3>Выберите коляску</h3>
+                            <p>Откройте приложение и посмотрите доступные модели на карте. Вы увидите уровень заряда и
+                                местоположение каждой коляски.</p>
+                        </div>
+                        <div class="step-image">
+                            <img src="assets/screenshots/1.jpg" alt="Выбор коляски на карте">
+                        </div>
+                    </div>
+                    <div class="step-card animate-on-scroll" data-step="2">
+                        <div class="step-number">02</div>
+                        <div class="step-content">
+                            <div class="step-icon">
+                                <i class="fas fa-mobile-screen-button"></i>
+                            </div>
+                            <h3>Оформите заказ</h3>
+                            <p>Укажите телефон, адрес доставки и выберите тариф. После заявки менеджер свяжется для
+                                подтверждения деталей.</p>
+                        </div>
+                        <div class="step-image">
+                            <img src="assets/screenshots/2.jpg" alt="Оформление заказа">
+                        </div>
+                    </div>
+                    <div class="step-card animate-on-scroll" data-step="3">
+                        <div class="step-number">03</div>
+                        <div class="step-content">
+                            <div class="step-icon">
+                                <i class="fas fa-house-user"></i>
+                            </div>
+                            <h3>Получите коляску</h3>
+                            <p>Наш курьер доставит заряженную и проверенную коляску прямо к вашей двери в согласованное
+                                время.</p>
+                        </div>
+                        <div class="step-image">
+                            <img src="assets/screenshots/3.jpg" alt="Получение коляски">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tariffs Section -->
+    <section class="section tariffs" id="tariffs">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-badge">Цены</span>
+                <h2 class="section-title">Выберите тариф</h2>
+                <p class="section-subtitle">Честные цены без скрытых доплат</p>
+            </div>
+            <div class="tariffs-grid">
+                <div class="tariff-card animate-on-scroll" data-delay="0">
+                    <div class="tariff-header">
+                        <div class="tariff-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Экспресс</h3>
+                        <div class="tariff-price">
+                            <span class="price">300</span>
+                            <span class="currency">₽</span>
+                        </div>
+                        <span class="tariff-period">3 часа</span>
+                    </div>
+                    <ul class="tariff-features">
+                        <li><i class="fas fa-check"></i> Полный заряд батареи</li>
+                        <li><i class="fas fa-check"></i> Доставка до двери</li>
+                        <li><i class="fas fa-check"></i> Техподдержка</li>
+                        <li><i class="fas fa-check"></i> Инструктаж</li>
+                    </ul>
+                    <a href="https://www.rustore.ru/catalog/app/com.biomotus.mobile" target="_blank"
+                        class="btn btn-outline btn-tariff">Выбрать</a>
+                </div>
+
+                <div class="tariff-card animate-on-scroll" data-delay="100">
+                    <div class="tariff-header">
+                        <div class="tariff-icon">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                        <h3>День</h3>
+                        <div class="tariff-price">
+                            <span class="price">600</span>
+                            <span class="currency">₽</span>
+                        </div>
+                        <span class="tariff-period">1 день</span>
+                    </div>
+                    <ul class="tariff-features">
+                        <li><i class="fas fa-check"></i> Полный заряд батареи</li>
+                        <li><i class="fas fa-check"></i> Доставка до двери</li>
+                        <li><i class="fas fa-check"></i> Техподдержка 24/7</li>
+                        <li><i class="fas fa-check"></i> Инструктаж</li>
+                    </ul>
+                    <a href="https://www.rustore.ru/catalog/app/com.biomotus.mobile" target="_blank"
+                        class="btn btn-outline btn-tariff">Выбрать</a>
+                </div>
+
+                <div class="tariff-card popular animate-on-scroll" data-delay="200">
+                    <div class="popular-badge">
+                        <i class="fas fa-star"></i> Выгодно
+                    </div>
+                    <div class="tariff-header">
+                        <div class="tariff-icon">
+                            <i class="fas fa-calendar-week"></i>
+                        </div>
+                        <h3>5 дней</h3>
+                        <div class="tariff-price">
+                            <span class="price">2 250</span>
+                            <span class="currency">₽</span>
+                        </div>
+                        <span class="tariff-period">5 дней</span>
+                        <span class="tariff-save">Экономия 750 ₽</span>
+                    </div>
+                    <ul class="tariff-features">
+                        <li><i class="fas fa-check"></i> Экономия 750 ₽</li>
+                        <li><i class="fas fa-check"></i> Доставка до двери</li>
+                        <li><i class="fas fa-check"></i> Техподдержка 24/7</li>
+                        <li><i class="fas fa-check"></i> Зарядное устройство</li>
+                        <li><i class="fas fa-check"></i> Приоритетное обслуживание</li>
+                    </ul>
+                    <a href="https://www.rustore.ru/catalog/app/com.biomotus.mobile" target="_blank"
+                        class="btn btn-primary btn-tariff">Выбрать</a>
+                </div>
+
+                <div class="tariff-card animate-on-scroll" data-delay="300">
+                    <div class="tariff-header">
+                        <div class="tariff-icon">
+                            <i class="fas fa-calendar-days"></i>
+                        </div>
+                        <h3>10 дней</h3>
+                        <div class="tariff-price">
+                            <span class="price">4 000</span>
+                            <span class="currency">₽</span>
+                        </div>
+                        <span class="tariff-period">10 дней</span>
+                        <span class="tariff-save">Экономия 2 000 ₽</span>
+                    </div>
+                    <ul class="tariff-features">
+                        <li><i class="fas fa-check"></i> Экономия 2 000 ₽</li>
+                        <li><i class="fas fa-check"></i> Все включено</li>
+                        <li><i class="fas fa-check"></i> Техподдержка 24/7</li>
+                        <li><i class="fas fa-check"></i> Зарядное устройство</li>
+                    </ul>
+                    <a href="https://www.rustore.ru/catalog/app/com.biomotus.mobile" target="_blank"
+                        class="btn btn-outline btn-tariff">Выбрать</a>
+                </div>
+
+                <div class="tariff-card animate-on-scroll" data-delay="400">
+                    <div class="tariff-header">
+                        <div class="tariff-icon">
+                            <i class="fas fa-calendar"></i>
+                        </div>
+                        <h3>Месяц</h3>
+                        <div class="tariff-price">
+                            <span class="price">12 000</span>
+                            <span class="currency">₽</span>
+                        </div>
+                        <span class="tariff-period">30 дней</span>
+                        <span class="tariff-save">Максимальная выгода</span>
+                    </div>
+                    <ul class="tariff-features">
+                        <li><i class="fas fa-check"></i> Максимальная выгода</li>
+                        <li><i class="fas fa-check"></i> Полное обслуживание</li>
+                        <li><i class="fas fa-check"></i> Техподдержка 24/7</li>
+                        <li><i class="fas fa-check"></i> Замена при поломке</li>
+                    </ul>
+                    <a href="https://www.rustore.ru/catalog/app/com.biomotus.mobile" target="_blank"
+                        class="btn btn-outline btn-tariff">Выбрать</a>
+                </div>
+            </div>
+            <div class="tariff-note animate-on-scroll">
+                <i class="fas fa-info-circle"></i>
+                <p>Нужен другой срок? Свяжитесь с нами для индивидуального расчёта стоимости.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Showcase Section -->
+    <section class="section app-showcase" id="app">
+        <div class="container">
+            <div class="app-showcase-container">
+                <div class="app-content animate-on-scroll">
+                    <span class="section-badge light">Мобильное приложение</span>
+                    <h2>Управляйте арендой через приложение</h2>
+                    <p>Все функции сервиса в вашем смартфоне: карта с доступными колясками, история заказов, связь с
+                        поддержкой и управление профилем.</p>
+                    <ul class="app-features">
+                        <li>
+                            <i class="fas fa-map"></i>
+                            <span>Интерактивная карта с колясками</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock-rotate-left"></i>
+                            <span>История заказов и статусы</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-user-gear"></i>
+                            <span>Управление профилем</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-comments"></i>
+                            <span>Чат с поддержкой</span>
+                        </li>
+                    </ul>
+                    <a href="https://www.rustore.ru/catalog/app/com.biomotus.mobile" target="_blank" class="store-btn">
+                        <img src="assets/rustore.png" alt="RuStore">
+                    </a>
+                </div>
+                <div class="app-visual animate-on-scroll">
+                    <div class="app-carousel">
+                        <div class="carousel-slides" id="carousel-slides">
+                            <div class="carousel-slide active">
+                                <img src="assets/screenshots/1.jpg" alt="Карта колясок">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="assets/screenshots/2.jpg" alt="Оформление заказа">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="assets/screenshots/3.jpg" alt="Профиль пользователя">
+                            </div>
+                        </div>
+                        <div class="carousel-nav">
+                            <button class="carousel-dot active" data-slide="0"></button>
+                            <button class="carousel-dot" data-slide="1"></button>
+                            <button class="carousel-dot" data-slide="2"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq" id="faq">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-badge">Вопросы</span>
+                <h2 class="section-title">Частые вопросы</h2>
+                <p class="section-subtitle">Ответы на популярные вопросы о нашем сервисе</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">
+                        <span>Как быстро доставят коляску?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>После оформления заявки наш менеджер свяжется с вами для подтверждения деталей. Обычно
+                            доставка осуществляется в течение 1-2 часов в пределах города, но вы можете указать удобное
+                            время при оформлении.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">
+                        <span>Какой заряд батареи у колясок?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Все коляски доставляются полностью заряженными (100%). При аренде от 5 дней мы также
+                            предоставляем зарядное устройство. В приложении вы можете видеть текущий уровень заряда
+                            каждой коляски.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">
+                        <span>Как выбрать коляску на карте?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>В приложении на карте отображаются все доступные коляски с их местоположением и уровнем
+                            заряда. Вы можете выбрать ближайшую к вам или с максимальным зарядом. Коляски сортируются по
+                            уровню заряда — сначала показываются более заряженные.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">
+                        <span>Можно ли отменить заказ?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Да, вы можете отменить заказ в личном кабинете приложения, пока он находится в статусе
+                            «ожидает». После подтверждения заказа менеджером для отмены свяжитесь с поддержкой.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">
+                        <span>Какие способы оплаты доступны?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Мы принимаем оплату наличными при получении, банковскими картами и безналичным переводом.
+                            Детали оплаты уточняются с менеджером при подтверждении заказа.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">
+                        <span>Что делать, если нужен нестандартный срок аренды?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>При оформлении заказа выберите вариант «Другое» и укажите нужный срок. Наш менеджер свяжется
+                            с вами и рассчитает индивидуальную стоимость аренды.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="cta-bg">
+            <div class="cta-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <h2>Готовы начать?</h2>
+                <p>Скачайте приложение и оформите первый заказ уже сегодня</p>
+                <a href="https://www.rustore.ru/catalog/app/com.biomotus.mobile" target="_blank"
+                    class="btn btn-white btn-lg">
+                    <i class="fas fa-download"></i> Скачать приложение
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col footer-brand">
+                    <a href="#" class="footer-logo">
+                        <img src="assets/logo-night.png" alt="BioMotus">
+                        <!-- <span>BioMotus</span> -->
+                    </a>
+                    <p>Сервис аренды современных электрических инвалидных колясок с доставкой по городу.</p>
+                    <div class="footer-social">
+                        <a href="https://www.rustore.ru/catalog/app/com.biomotus.mobile" target="_blank"
+                            class="social-link rustore" aria-label="RuStore">
+                            <img src="assets/rustore.png" alt="RuStore">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Навигация</h4>
+                    <div class="footer-links">
+                        <a href="#benefits">Преимущества</a>
+                        <a href="#how-it-works">Как это работает</a>
+                        <a href="#tariffs">Тарифы</a>
+                        <a href="#app">Приложение</a>
+                        <a href="#faq">FAQ</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <div class="footer-links">
+                        <a href="tel:+79990000000">
+                            <i class="fas fa-phone"></i> +7 (999) 000-00-00
+                        </a>
+                        <a href="mailto:info@biomotus.ru">
+                            <i class="fas fa-envelope"></i> info@biomotus.ru
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 BioMotus. Все права защищены.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Условия использования</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Наверх">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
